@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Ensure you're using a node version compatible with your project
+          node-version: '16'  # E
 
       - name: Install Wrangler
         run: npm install -g wrangler@latest
