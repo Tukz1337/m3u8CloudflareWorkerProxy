@@ -3,3 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2023-03-12"
 type = "javascript"
 workers_dev = true
+
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
